@@ -1,6 +1,5 @@
 ## Bienvenidos a la página de Construcción de Software
 
-
 <div>Teachable Machine Image Model</div>
 <button type="button" onclick="init()">Start</button>
 <div id="webcam-container"></div>
@@ -12,7 +11,7 @@
     // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/image
 
     // the link to your model provided by Teachable Machine export panel
-    const URL = "https://teachablemachine.withgoogle.com/models/8tOcyeQSp/";
+    const URL = "https://teachablemachine.withgoogle.com/models/UdMjhojO_/";
 
     let model, webcam, labelContainer, maxPredictions;
 
@@ -60,6 +59,7 @@
         }
     }
 </script>
+
 
 
 
